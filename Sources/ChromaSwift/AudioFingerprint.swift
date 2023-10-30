@@ -8,7 +8,7 @@ public class AudioFingerprint {
     public let algorithm: Algorithm
     public let duration: Double
 
-    var rawFingerprint: [UInt32]
+    public var rawFingerprint: [UInt32]
 
     public enum Error: Swift.Error {
         case fingerprintingFailed
